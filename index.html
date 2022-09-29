@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supergram</title>
+    <link rel="icon" type="image/png" href="./img/grinch.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Shippori+Antique+B1&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body onload="renderPosts()">
+    <div class="header">
+        <div class="headerUnderLay">
+            <div class="logo"><a href="#"><img class="logo" src="./img/logo.png"></a></div>
+            <div class="searchField"><input type="text" class="inputField" placeholder="Suchen"></div>
+            <div class="iconContainer">
+                <div><a href="#"><img src="./img/icon_home.png"></a></div>
+                <div><a href="#"><img src="./img/icon_message.png"></a></div>
+                <div><a href="#"><img src="./img/icon_add.png"></a></div>
+                <div><a href="#"><img src="./img/icon_comp.png"></a></div>
+                <div><a href="#"><img src="./img/icon_herz.png"></a></div>
+                <div><a href="#"><img src="./img/icon_profile.png"></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="leftContents">
+            <div class="friendsOverCont">
+                <div class="friends">
+                    <div class="friendsProfile">
+                        <div class="friendsProfilePic"><a href="#"><img src="./img/batman.png"></a></div>
+                        <div>Batman</div>
+                    </div>
+                    <div class="friendsProfile">
+                        <div class="friendsProfilePic"><a href="#"><img src="./img/spiderman.png"></a></div>
+                        <div>Spiderman</div>
+                    </div>
+                    <div class="friendsProfile">
+                        <div class="friendsProfilePic"><a href="#"><img src="./img/aquaman.png"></a></div>
+                        <div>Aquaman</div>
+                    </div>
+                    <div class="friendsProfile">
+                        <div class="friendsProfilePic"><a href="#"><img src="./img/thor.png"></a></div>
+                        <div>Thor</div>
+                    </div>
+                </div>
+            </div>
+            <div class="postOverContainer">
+                <div id="postContainer"></div>
+            </div>
+        </div>
+        <div class="rightContents">
+            <div class="profile">
+                <div class="profilePic">
+                    <a href="#"><img src="./img/grinch.png"></a>
+                </div>
+
+                <div class="profileRight">
+                    <div class="profileUnderCont">
+                        <div><a class="nick" href="#">The Osman</a></div>
+                        <div><a>Osman Bilgin</a></div>
+                    </div>
+                    <div class="aktion"><a href="#">Wechseln</a></div>
+                </div>
+            </div>
+
+            <div class="suggest">
+                <div><a>Vorschläge für dich</a></div>
+                <div>Alle ansehen</div>
+            </div>
+            <div class="profile">
+                <div class="profilePic">
+                    <a href="#"><img src="./img/batman.png"></a>
+                </div>
+
+                <div class="profileRight">
+                    <div class="profileUnderCont">
+                        <div><a class="nick" href="#">The Batman</a></div>
+                        <div><a>Bruce Wayne</a></div>
+                    </div>
+                    <div class="aktion"><a href="#">Folgen</a></div>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profilePic">
+                    <a href="#"><img src="./img/spiderman.png"></a>
+                </div>
+
+                <div class="profileRight">
+                    <div class="profileUnderCont">
+                        <div><a class="nick" href="#">The Spiderman</a></div>
+                        <div><a>Peter Parker</a></div>
+                    </div>
+                    <div class="aktion"><a href="#">Folgen</a></div>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profilePic">
+                    <a href="#"><img src="./img/aquaman.png"></a>
+                </div>
+
+                <div class="profileRight">
+                    <div class="profileUnderCont">
+                        <div><a class="nick" href="#">The Aquaman</a></div>
+                        <div><a>Arthur Curry</a></div>
+                    </div>
+                    <div class="aktion"><a href="#">Folgen</a></div>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profilePic">
+                    <a href="#"><img src="./img/thor.png"></a>
+                </div>
+
+                <div class="profileRight">
+                    <div class="profileUnderCont">
+                        <div><a class="nick" href="#">Thor</a></div>
+                        <div><a>Thor</a></div>
+                    </div>
+                    <div class="aktion"><a href="#">Folgen</a></div>
+                </div>
+            </div>
+            <br><br>
+            <div class="footer">
+                <div><a href="#">Info</a></div>-
+                <div><a href="#">Hilfe</a></div>-
+                <div><a href="#">Presse</a></div>-
+                <div><a href="#">Jobs</a></div>
+            </div>
+            <div class="footer">
+                <div><a href="#">Datenschutz</a></div>-
+                <div><a href="#">Impressum</a></div>
+            </div>
+            <div class="footer"><a href="#">© 2022 Supergram</a></div>
+        </div>
+    </div>
+</body>
+</html>
